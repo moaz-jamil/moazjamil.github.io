@@ -1,0 +1,54 @@
+body {
+  background: #0d1117;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#home {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
+.highlight {
+  color: #0d6efd;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.project-card {
+  background: #161b22;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background: #0b0f13;
+}
